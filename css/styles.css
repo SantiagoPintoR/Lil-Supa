@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+/* Header section */
+
+header {
+  width: 100%;
+  background-color: #000000;
+  height: 80px;
+  position: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 6.25rem;
+  height: auto;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 20em;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0px 10px;
+  line-height: 80px;
+  letter-spacing: 0px;
+  font-size: 16px;
+  font-family: "Style Script", cursive;
+}
+
+.menu ul li a:hover {
+  background-color: #8da751;
+  display: block;
+  color: #fff;
+  transition: 1s ease;
+}
+
+.redes_sociales {
+  display: inline-block;
+}
+.redes_sociales ul li {
+  display: inline-block;
+  list-style: none;
+}
+.redes_sociales img {
+  width: 21px;
+  height: auto;
+  margin-top: 30px;
+  padding: 0px 2px;
+}
+
+.neon {
+  max-width: 100%;
+}
+
+/*Music section*/
+.music {
+  display: flex;
+  background: #121212;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2% 5%;
+}
+
+.album1,
+.album2,
+.album3 {
+  display: flex;
+}
+
+.imagen_parrafo img {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+}
+
+.rotar:hover {
+  transform: rotate(360deg);
+  transition: 2s ease-in-out;
+}
+
+.texto_parrafo {
+  font-family: "Style Script", cursive;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+/*Videoclips section*/
+
+h5 {
+  font-family: "Style Script", cursive;
+  font-style: italic;
+  color: #121212;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: "Style Script", cursive;
+  font-size: 60px;
+  font-style: bold;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+h6 {
+  font-family: "Style Script", cursive;
+  font-size: 25px;
+  font-style: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.galeria {
+  width: 100%;
+  margin: auto;
+  padding: 0px 50px 50px 50px;
+  text-align: center;
+}
+
+.video {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+}
+
+.vid {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+/*Nosotros*/
+
+.final {
+  background-color: #121212;
+}
+
+.final p {
+  color: #fff;
+}
+
+h2 {
+  font-family: "Roboto regular", sans-serif;
+  font-size: 25px;
+  font-style: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cont {
+  width: 100%;
+  margin: auto;
+  padding: 0px 50px 50px 50px;
+  text-align: center;
+}
+
+.inf {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #121212;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.li {
+  height: 15px;
+  background-color: #121212;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 1px;
+}
+
+.lq {
+  width: 90%;
+  height: 300px;
+}
+
+.lqr {
+  width: 100%;
+  height: 300px;
+  font-family: "Style Script", cursive;
+  font-style: regular;
+  text-align: justify;
+  font-size: 21px;
+}
+
+.lqs {
+  width: 10rem;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  height: 90px;
+  background: #000000;
+  color: #fff;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.pf {
+  width: 80%;
+  padding: 30px;
+  margin: auto;
+  color: #fff;
+  font-family: "Style Script", cursive;
+  font-style: Regular;
+  text-align: center;
+}

@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+/* Header section */
+
+header {
+  width: 100%;
+  background-color: #000000;
+  height: 80px;
+  position: fixed;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 6.25rem;
+  height: auto;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 20em;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.menu ul a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0px 10px;
+  line-height: 80px;
+  letter-spacing: 0px;
+  font-size: 16px;
+  font-family: "Style Script", cursive;
+}
+
+.menu ul li a:hover {
+  background-color: #8da751;
+  display: block;
+  color: #fff;
+  transition: 1s ease;
+}
+
+.redes_sociales {
+  display: inline-block;
+}
+.redes_sociales ul li {
+  display: inline-block;
+  list-style: none;
+}
+.redes_sociales img {
+  width: 21px;
+  height: auto;
+  margin-top: 30px;
+  padding: 0px 2px;
+}
+
+.neon {
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Style Script", cursive;
+  font-style: bold;
+  font-size: 50px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.footer h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Style Script", cursive;
+  font-style: italic;
+  font-size: 25px;
+  color: #fff;
+}
+
+body {
+  width: 100%;
+}
+.gal_cont {
+  width: 80%;
+  margin: auto;
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 350px;
+  grid-gap: 10px;
+}
+
+.im {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gal_item:nth-child(1) {
+  grid-row-start: span 2;
+}
+
+.gal_item:nth-child(5) {
+  grid-row-start: span 2;
+}
+
+.gal_item:nth-child(9) {
+  grid-column-start: span 2;
+}
+
+/*Nosotros*/
+
+.final {
+  background-color: #121212;
+}
+
+.final p {
+  color: #fff;
+}
+
+.final h2 {
+  color: #fff;
+}
+
+h2 {
+  font-family: "Style Script", cursive;
+  font-size: 25px;
+  font-style: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cont {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.inf {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #121212;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lq {
+  width: 90%;
+  height: 300px;
+}
+
+.lqr {
+  width: 100%;
+  height: 300px;
+  font-family: "Style Script", cursive;
+  font-style: regular;
+  text-align: justify;
+  font-size: 21px;
+}
+
+.lqs {
+  width: 10rem;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*Footer*/
+
+footer {
+  width: 100%;
+  background: #000000;
+  color: #fff;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.pf {
+  width: 80%;
+  margin: auto;
+  color: #fff;
+  font-family: "Style Script", cursive;
+  font-style: Regular;
+  text-align: center;
+}
